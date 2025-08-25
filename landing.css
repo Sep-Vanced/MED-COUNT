@@ -1,0 +1,46 @@
+:root {
+	--clr-dark: #0f172a;
+	--clr-light: #f1f5f9;
+	--clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	word-spacing: 1.4px;
+	font-family: 'roboto', sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.background img {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 960px;
+}
+
+@media (max-width: 768px) {
+	.background img {
+	background-position: center center;
+  	background-size: cover;
+	z-index: 1;
+}
+}
+
+@media (max-width: 430px) {
+	.background img {
+	background-position: center center;
+  	background-size: cover;
+	z-index: 1;
+}
+}
